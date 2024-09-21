@@ -1,0 +1,54 @@
+*{
+    font-family: "Noto Serif", serif;
+}
+.b{
+    font-size: 30px;
+    width:90px;
+    color: lightskyblue;
+}
+#nav-btn{
+    border: 1px solid blue;
+}
+#nav-btn:hover{
+    color: rgb(228, 228, 240);
+    background-color: rgb(8, 8, 94);
+}
+.ch3{
+    color:black;
+}
+.cp{
+    color: black;
+}
+.row{
+    text-align: justify;
+}
+#about{
+    background-image: url(https://www.imageshine.in/uploads/gallery/White-simple-textured-design-background.jpg);
+    background-position: center;
+    background-size: cover;   
+    padding-bottom: 10%;
+    padding-top: 3%;
+}
+.abt{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 24px 9px 0px;
+    padding-top: 14px;
+}
+#places{
+    padding-top: 4%;
+    padding-bottom: 7%;
+}
+#blogs{
+    padding-top: 16px;
+    padding-bottom: 7%;
+}
+.blogs{
+    margin-right: 45px;
+    margin-left: 185px;
+}
+#contact{
+    margin: 79px 65px;
+    padding-bottom: 4%;
+}
+.p{
+    margin-top: 79px;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skyline</title>
+  <link rel="icon" href="./images/skyline.png">
+  <!-- style -->
+   <link rel="stylesheet" href="./style.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- googlefonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+      <div id="bacg">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <img src="./images/skyline.png" alt="" width="100"><b class="b">Skyline</b>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-lg-center">
+                <li class="nav-item me-3">
+                  <a class="nav-link " href="#">Home</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link " href="#places">Places</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#blogs">Blogs</a>
+                </li>
+                <li class="nav-item me-5">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li >
+                <button class="btn rounded  ms-4 " id="nav-btn" type="Reg">Sign In</button>
+                <button class="btn rounded  ms-3 " id="nav-btn" type="Reg">Register</button>
+              </li>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div id="bg">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/travel1.jpg" class="d-block w-100" alt="..." height="550">
+              <div class="carousel-caption d-none d-md-block">
+                <h3 class="ch3">Valleys & Mountains</h3>
+                <p class="cp"><b>The marvelous richness of human experience would lose something of rewarding joy if there were no limitations to overcome. The hilltop hour would not be half so wonderful if there were no dark valleys to traverse.</b></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/travel3.png" class="d-block w-100" alt="..." height="550">
+              <div class="carousel-caption d-none d-md-block">
+                <h3 class="ch3">Beaches</h3>
+                <p class="cp"><b>At the beach, life is different. Time doesn’t move hour to hour but mood to moment. We live by the currents, plan by the tides and follow the sun.</b></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/travel2c.jpg" class="d-block w-100" alt="..." height="550">
+              <div class="carousel-caption d-none d-md-block">
+                <h3 class="ch3">Resorts</h3>
+                <p  class="cp"><b>Vacations mean a change of pace, a gentleness with ourselves, a time of rest and renewal, and a time to stretch ourselves and encounter new people, new lands, new ways, and new options.</b></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- about -->
+       <div id="about">
+          <div class="aboutus lg-d-flex-md-d-block">
+            <div class="text-center my-5">
+              <h1 class="">About</h1>
+              <span class="">-------Skyline-------</span>
+            </div>
+            <div class="container-fluid mt-4">
+              <div class="row mx-3 ">
+                  <div class="abt col-lg-4 px-4 ">
+                    <h3 class="mb-3"><i>01|</i>Travel</h3>
+                    <span>--------------------</span>
+                    <p class="">At skyline Travel, we believe that travel should be sustainable and responsible. We are committed to minimizing our impact on the environment and supporting local communities wherever we go. We also believe in providing our customers with exceptional service every step of the way.</p>
+                  </div>
+                <div class="abt col-lg-4 px-4 ">
+                  <h3 class="mb-3"><i>02|</i>Experience</h3>
+                  <span>--------------------</span>
+                  <p>To guarantee that you have a satisfying occasion and healthy encounters, all our vacation administrations are available to your no matter what. On your universal occasion, we guarantee that you are very much outfitted with outside trade (Forex Cards, Currency Notes), visa, and travel protection.</p>
+                </div>
+                <div class="abt col-lg-4 px-4 ">
+                  <h3 class="mb-3"><i>03|</i>Relax</h3>
+                  <span>--------------------</span>
+                  <p>Each one of these relaxing trips allowed us to clear our minds and live in the moment. They are like slices of heaven! At the end of each relaxation travel idea, you will find a link to a travel guide or itinerary to help you plan your trip.Go to the beaches</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- places -->
+       <div id="places">
+        <div class="place lg-d-flex-md-d-block">
+          <div class="text-center my-5 ">
+            <h1 class="">Places</h1>
+            <span class="">-------Skyline-------</span>
+          </div>
+           <div class="container-fluid">
+             <div class="row my-5">
+                <div class="col-md-3 p-3">
+                  <div class="card shadow" style="width:100%;">
+                    <img src="./images/beach.jpeg" class="card-img-top" alt="..." height="200" class="d-block w-100" >
+                    <div class="card-body">
+                      <h5 class="card-title">Beaches</h5>
+                      <p class="card-text mt-4">need some relaxation </p>
+                      <a href="#" class="btn btn-primary">Explore More</a>
+                    </div>
+                </div></div>
+                  <div class="col-md-3 p-3">
+                    <div class="card" style="width: 100%;">
+                      <img src="./images/hotels.webp" class="card-img-top" alt="..."height="200" class="d-block w-100">
+                      <div class="card-body">
+                        <h5 class="Hotels">Hotels</h5>
+                        <p class="card-text mt-4">need to be careless.</p>
+                        <a href="#" class="btn btn-primary">Explore More</a>
+                      </div>
+                  </div></div>
+                  <div class="col-md-3 p-3">
+                    <div class="card shadow" style="width:100%;">
+                      <img src="./images/mountains.jpg" class="card-img-top" alt="..." height="200" class="d-block w-100">
+                      <div class="card-body">
+                        <h5 class="card-title">Mountains</h5>
+                        <p class="card-text mt-4">need some peace </p>
+                        <a href="#" class="btn btn-primary">Explore More</a>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-md-3 p-3 ">
+                    <div class="card shadow" style="width:100%;">
+                      <img src="./images/waterfall.jpeg" class="card-img-top" alt="..." height="200" >
+                      <div class="card-body">
+                        <h5 class="card-title">Waterfall</h5>
+                        <p class="card-text mt-4">need some Beautiful Memories</p>
+                        <a href="#" class="btn btn-primary">Explore More</a>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+           </div>
+        </div>
+       </div>
+    
+       <!-- blogs -->
+        <div id="blogs">
+          <div class="place lg-d-flex-md-d-block">
+            <div class="text-center my-5 ">
+              <h1 class="">Blogs</h1>
+              <span class="">-------Skyline-------</span>
+            </div>
+          <div class="container-fluid">
+            <div class="blogs row lg-mx-2-md-mx-5 ">
+              <div class="col-lg-4 p-4">
+                <img src="./images/beach2.jpg" alt="" height="180" width="350" class="d-block w-100">
+                <p class="text-center mb-3">Asia ⁜  Beaches ⁜ Wildlifes</p>
+                <p class="  text-center">Fulidhoo is a small, budget-friendly local island we visited recently in the Maldives, along with Dhigurah island, which we loved for its beaches and sandbar. Aside from …</p>
+                <a href="#" class="btn btn-secondary rounded mb-2 justify-content-center align-items-center d-flex">Read More →</a>
+              </div>
+              <div class="col-lg-4 p-4">
+                <img src="./images/mountains.jpg" alt="" height="180" width="350" class="d-block w-100">
+                <p class="text-center mb-3">Indonesia ⁜ Mountains ⁜ Hiking</p>
+                <p class=" text-center">The Tiger’s Nest Monastery hike is one of the best things to do in Bhutan, and probably one of the most amazing day hikes in the world  trail that leads you to panoramic views of the …</p>
+                <a href="#" class="btn btn-secondary rounded mb-2 justify-content-center align-items-center d-flex">Read More →</a>
+              </div>
+              <div class="col-lg-4 p-4">
+                <img src="./images/waterfall2.jpeg" alt="" height="180" width="350" class="d-block w-100">
+                <p class="text-center mb-3">Bali ⁜ Waterfall ⁜ Wildlifes</p>
+                <p class="  text-center">Tumpak Sewu waterfall is becoming famous as one of the most amazing waterfalls in East Java, and it may even be the coolest waterfall<br> in all of  Southeast Asia.…</p>
+                <a href="#" class="btn btn-secondary rounded mb-2 justify-content-center align-items-center d-flex">Read More →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact us -->
+       <div id="contact">
+        <div class="contact lg-d-flex-md-d-block">
+          <div class="text-center my-5 ">
+            <h1 class="">Contact us</h1>
+            <span class="">-------Skyline-------</span>
+          </div>
+          <div class="container-fluid mt-5">
+          <div class="row">
+            <div class="col-lg-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125531.64774493405!2d76.14084716741183!3d10.511376971182244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ee15ed42d1bb%3A0x82e45aa016ca7db!2sThrissur%2C%20Kerala!5e0!3m2!1sen!2sin!4v1726910498092!5m2!1sen!2sin" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class=" col-lg-6">
+              <h2>We're here</h2><br><p class="mb-4">Our door is always open for any help regarding travel</p>
+              <hr>
+              <p><i class="p fa-solid fa-location-dot "></i> skyline office,near Thrissur Railway station,p.o thrissurjn,671432,kerala</p>
+              <p><i class=" fa-solid fa-phone "></i> +91 987654321</p>
+              <p><i class=" fa-solid fa-envelope "></i> skyline@gmail.com</p>
+              <p><i class=" fa-brands fa-youtube "></i> www.skyline@youtube.com</p>
+              <p><i class=" fa-brands fa-instagram"></i>Skyline_travel</p>
+              <p><i class=" fa-brands fa-twitter"></i>skyline@twitter</p>
+            </div>
+          </div>
+          </div>
+      </div>
+       </div>
+
+       <!-- footer -->
+       <footer>
+        <p class="d-flex align-items-center justify-content-center">------------------© My Design 2024, All Rights Reserved ® skyline------------------</p>
+       </footer>
+</body>
+</html>
